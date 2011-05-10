@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9B7C251378EEDC008F6562 /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B7C241378EEDC008F6562 /* death.png */; };
+		D740CF5D137052A6003E155D /* Lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D740CF5C137052A6003E155D /* Lock-icon.png */; };
+		D740CF6013706771003E155D /* PasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D740CF5F13706771003E155D /* PasscodeView.m */; };
+		D790FBD813708BB60093BC7B /* SecureFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D790FBD713708BB60093BC7B /* SecureFileBrowser.m */; };
+		D79B0B2313704889007F24D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79B0B2213704889007F24D2 /* UIKit.framework */; };
+		D79B0B2513704889007F24D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79B0B2413704889007F24D2 /* Foundation.framework */; };
+		D79B0B2713704889007F24D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79B0B2613704889007F24D2 /* CoreGraphics.framework */; };
+		D79B0B2D13704889007F24D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79B0B2B13704889007F24D2 /* InfoPlist.strings */; };
+		D79B0B3013704889007F24D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0B2F13704889007F24D2 /* main.m */; };
+		D79B0B3313704889007F24D2 /* SandboxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0B3213704889007F24D2 /* SandboxAppDelegate.m */; };
+		D79B0B3713704889007F24D2 /* SandboxAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0B3613704889007F24D2 /* SandboxAppDelegate_iPhone.m */; };
+		D79B0B3A13704889007F24D2 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79B0B3813704889007F24D2 /* MainWindow_iPhone.xib */; };
+		D79B0B3E13704889007F24D2 /* SandboxAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0B3D13704889007F24D2 /* SandboxAppDelegate_iPad.m */; };
+		D79B0B4113704889007F24D2 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79B0B3F13704889007F24D2 /* MainWindow_iPad.xib */; };
+		D79B0B5313704979007F24D2 /* PasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79B0B5113704979007F24D2 /* PasscodeView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B9B7C241378EEDC008F6562 /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
+		D740CF5C137052A6003E155D /* Lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock-icon.png"; sourceTree = "<group>"; };
+		D740CF5F13706771003E155D /* PasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeView.m; sourceTree = "<group>"; };
+		D790FBD613708BB60093BC7B /* SecureFileBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureFileBrowser.h; sourceTree = "<group>"; };
+		D790FBD713708BB60093BC7B /* SecureFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureFileBrowser.m; sourceTree = "<group>"; };
+		D79B0B1E13704889007F24D2 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79B0B2213704889007F24D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D79B0B2413704889007F24D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D79B0B2613704889007F24D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D79B0B2A13704889007F24D2 /* Sandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
+		D79B0B2C13704889007F24D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D79B0B2E13704889007F24D2 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
+		D79B0B2F13704889007F24D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D79B0B3113704889007F24D2 /* SandboxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxAppDelegate.h; sourceTree = "<group>"; };
+		D79B0B3213704889007F24D2 /* SandboxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxAppDelegate.m; sourceTree = "<group>"; };
+		D79B0B3513704889007F24D2 /* SandboxAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SandboxAppDelegate_iPhone.h; path = iPhone/SandboxAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		D79B0B3613704889007F24D2 /* SandboxAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SandboxAppDelegate_iPhone.m; path = iPhone/SandboxAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		D79B0B3913704889007F24D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		D79B0B3C13704889007F24D2 /* SandboxAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SandboxAppDelegate_iPad.h; path = iPad/SandboxAppDelegate_iPad.h; sourceTree = "<group>"; };
+		D79B0B3D13704889007F24D2 /* SandboxAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SandboxAppDelegate_iPad.m; path = iPad/SandboxAppDelegate_iPad.m; sourceTree = "<group>"; };
+		D79B0B4013704889007F24D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		D79B0B4F13704979007F24D2 /* PasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeView.h; sourceTree = "<group>"; };
+		D79B0B5113704979007F24D2 /* PasscodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79B0B1B13704889007F24D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79B0B2313704889007F24D2 /* UIKit.framework in Frameworks */,
+				D79B0B2513704889007F24D2 /* Foundation.framework in Frameworks */,
+				D79B0B2713704889007F24D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79B0B1313704889007F24D2 = {
+			isa = PBXGroup;
+			children = (
+				D79B0B2813704889007F24D2 /* Sandbox */,
+				D79B0B2113704889007F24D2 /* Frameworks */,
+				D79B0B1F13704889007F24D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79B0B1F13704889007F24D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0B1E13704889007F24D2 /* Sandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79B0B2113704889007F24D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0B2213704889007F24D2 /* UIKit.framework */,
+				D79B0B2413704889007F24D2 /* Foundation.framework */,
+				D79B0B2613704889007F24D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79B0B2813704889007F24D2 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0B3113704889007F24D2 /* SandboxAppDelegate.h */,
+				D79B0B3213704889007F24D2 /* SandboxAppDelegate.m */,
+				D79B0B4F13704979007F24D2 /* PasscodeView.h */,
+				D740CF5F13706771003E155D /* PasscodeView.m */,
+				D79B0B5113704979007F24D2 /* PasscodeView.xib */,
+				D790FBD613708BB60093BC7B /* SecureFileBrowser.h */,
+				D790FBD713708BB60093BC7B /* SecureFileBrowser.m */,
+				D79B0B3413704889007F24D2 /* iPhone */,
+				D79B0B3B13704889007F24D2 /* iPad */,
+				D79B0B2913704889007F24D2 /* Supporting Files */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		D79B0B2913704889007F24D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B7C241378EEDC008F6562 /* death.png */,
+				D740CF5C137052A6003E155D /* Lock-icon.png */,
+				D79B0B2A13704889007F24D2 /* Sandbox-Info.plist */,
+				D79B0B2B13704889007F24D2 /* InfoPlist.strings */,
+				D79B0B2E13704889007F24D2 /* Sandbox-Prefix.pch */,
+				D79B0B2F13704889007F24D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D79B0B3413704889007F24D2 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0B3513704889007F24D2 /* SandboxAppDelegate_iPhone.h */,
+				D79B0B3613704889007F24D2 /* SandboxAppDelegate_iPhone.m */,
+				D79B0B3813704889007F24D2 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		D79B0B3B13704889007F24D2 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0B3C13704889007F24D2 /* SandboxAppDelegate_iPad.h */,
+				D79B0B3D13704889007F24D2 /* SandboxAppDelegate_iPad.m */,
+				D79B0B3F13704889007F24D2 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79B0B1D13704889007F24D2 /* Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79B0B4413704889007F24D2 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildPhases = (
+				D79B0B1A13704889007F24D2 /* Sources */,
+				D79B0B1B13704889007F24D2 /* Frameworks */,
+				D79B0B1C13704889007F24D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = D79B0B1E13704889007F24D2 /* Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79B0B1513704889007F24D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = cibotech;
+			};
+			buildConfigurationList = D79B0B1813704889007F24D2 /* Build configuration list for PBXProject "Sandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D79B0B1313704889007F24D2;
+			productRefGroup = D79B0B1F13704889007F24D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79B0B1D13704889007F24D2 /* Sandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79B0B1C13704889007F24D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79B0B2D13704889007F24D2 /* InfoPlist.strings in Resources */,
+				D79B0B3A13704889007F24D2 /* MainWindow_iPhone.xib in Resources */,
+				D79B0B4113704889007F24D2 /* MainWindow_iPad.xib in Resources */,
+				D79B0B5313704979007F24D2 /* PasscodeView.xib in Resources */,
+				D740CF5D137052A6003E155D /* Lock-icon.png in Resources */,
+				3B9B7C251378EEDC008F6562 /* death.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79B0B1A13704889007F24D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79B0B3013704889007F24D2 /* main.m in Sources */,
+				D79B0B3313704889007F24D2 /* SandboxAppDelegate.m in Sources */,
+				D79B0B3713704889007F24D2 /* SandboxAppDelegate_iPhone.m in Sources */,
+				D79B0B3E13704889007F24D2 /* SandboxAppDelegate_iPad.m in Sources */,
+				D740CF6013706771003E155D /* PasscodeView.m in Sources */,
+				D790FBD813708BB60093BC7B /* SecureFileBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D79B0B2B13704889007F24D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79B0B2C13704889007F24D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D79B0B3813704889007F24D2 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79B0B3913704889007F24D2 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D79B0B3F13704889007F24D2 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79B0B4013704889007F24D2 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79B0B4213704889007F24D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79B0B4313704889007F24D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79B0B4513704889007F24D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
+				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D79B0B4613704889007F24D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
+				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79B0B1813704889007F24D2 /* Build configuration list for PBXProject "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79B0B4213704889007F24D2 /* Debug */,
+				D79B0B4313704889007F24D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79B0B4413704889007F24D2 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79B0B4513704889007F24D2 /* Debug */,
+				D79B0B4613704889007F24D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79B0B1513704889007F24D2 /* Project object */;
+}
