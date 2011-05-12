@@ -42,6 +42,8 @@
 - (void) configureView;
 - (void) displayError;
 
+- (void) resetAttempts;
+
 @end
 
 

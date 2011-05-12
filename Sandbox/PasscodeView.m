@@ -134,6 +134,18 @@
             userDigits[3]];
 }
 
+- (void) resetAttempts
+{
+    attempts = 0;
+    
+    [self resetView];
+    
+    self.titleView.text = NSLocalizedString(@"Enter Passcode", @"Enter Passcode");
+    self.titleView.backgroundColor = DEFAULT_COLOR;
+    self.subtitleLabel.backgroundColor = DEFAULT_COLOR;
+    self.subtitleLabel.text = @"";
+}
+
 - (void) resetView
 {
     passcodeCell1.text = @"";
