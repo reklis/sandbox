@@ -104,6 +104,33 @@
     }
 }
 
+- (void)application:(UIApplication *)application didChangeStatusBarOrientation:(UIInterfaceOrientation)oldStatusBarOrientation
+{
+    CGFloat ninetyDegrees = 1.57079633;
+    CGFloat rads = 0.0;
+    switch ([application statusBarOrientation]) {
+        case UIInterfaceOrientationLandscapeLeft:
+            rads += ninetyDegrees;
+            break;
+            
+        case UIInterfaceOrientationLandscapeRight:
+            rads += ninetyDegrees*3;
+            break;
+            
+        case UIInterfaceOrientationPortraitUpsideDown:
+            rads += ninetyDegrees*2;
+            break;
+            
+        case UIInterfaceOrientationPortrait:
+        default:
+            break;
+    }
+    
+    [UIView animateWithDuration:.5 animations:^(void) {
+        self.passcodeView.transform = CGAffineTransformMakeRotation(-rads);
+    }];
+}
+
 - (void) deallocLockdownUI
 {
     [self.passcodeView removeFromSuperview];
