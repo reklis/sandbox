@@ -21,7 +21,7 @@
     NSUInteger maxattempts;
 }
 
-@property (readwrite,nonatomic,assign) id<PasscodeViewDelegate> delegate;
+@property (readwrite,nonatomic,assign) IBOutlet id<PasscodeViewDelegate> delegate;
 
 @property (nonatomic, retain) IBOutlet UILabel *titleView;
 @property (nonatomic, retain) IBOutlet UILabel *subtitleLabel;
