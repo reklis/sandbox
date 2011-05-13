@@ -76,6 +76,8 @@
     if (!didQueryForMaxAttempts) {
         if ([delegate respondsToSelector:@selector(maximumNumberOfAttempts:)]) {
             maxattempts = [delegate maximumNumberOfAttempts:self];
+        } else {
+            maxattempts = NSUIntegerMax;
         }
         didQueryForMaxAttempts = YES;
     }
