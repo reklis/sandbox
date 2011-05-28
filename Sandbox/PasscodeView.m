@@ -82,10 +82,10 @@
         didQueryForMaxAttempts = YES;
     }
     
-    [UIView animateWithDuration:.3
-                     animations:^(void) {
+    //[UIView animateWithDuration:.3
+    //                 animations:^(void) {
                          [sender setBackgroundColor:DEFAULT_COLOR];
-                     }];
+    //                 }];
     
     if (cursorPosition >= PASSCODE_LENGTH) {
         cursorPosition = 0;
@@ -208,6 +208,34 @@
     if (maxattempts != NSUIntegerMax) {
         self.subtitleLabel.text = [NSString stringWithFormat:@"%d Attempts Left", maxattempts-attempts];
     }
+}
+
+- (void) doSlideEffect
+{
+    [UIView animateWithDuration:.5 delay:0 options:UIViewAnimationOptionCurveEaseIn
+                     animations:^(void) {
+                         CGAffineTransform t = CGAffineTransformMakeTranslation(-400, 0);
+                         self.passcodeCell1.transform = t;
+                         self.passcodeCell2.transform = t;
+                         self.passcodeCell3.transform = t;
+                         self.passcodeCell4.transform = t;
+                     } completion:^(BOOL finished) {
+                         CGAffineTransform t = CGAffineTransformMakeTranslation(400, 0);
+                         self.passcodeCell1.transform = t;
+                         self.passcodeCell2.transform = t;
+                         self.passcodeCell3.transform = t;
+                         self.passcodeCell4.transform = t;
+                         
+                         [UIView animateWithDuration:.5 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^(void) {
+                             CGAffineTransform t = CGAffineTransformMakeTranslation(0, 0);
+                             self.passcodeCell1.transform = t;
+                             self.passcodeCell2.transform = t;
+                             self.passcodeCell3.transform = t;
+                             self.passcodeCell4.transform = t;
+                         } completion:^(BOOL finished) {
+                             // done
+                         }];
+                     }];
 }
 
 - (NSString*) description

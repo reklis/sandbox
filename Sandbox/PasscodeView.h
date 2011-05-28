@@ -43,6 +43,7 @@
 - (void) displayError;
 
 - (void) resetAttempts;
+- (void) doSlideEffect;
 
 @end
 
